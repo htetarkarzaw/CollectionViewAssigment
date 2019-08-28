@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="BookCollectionViewCell" customModule="CollectionViewAssigment" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="132" height="347"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="132" height="347"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="blB-g4-owA">
+                        <rect key="frame" x="0.0" y="0.0" width="132" height="347"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="book_cover" translatesAutoresizingMaskIntoConstraints="NO" id="UH2-Pw-BlM">
+                                <rect key="frame" x="0.0" y="0.0" width="132" height="200"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="JZD-2V-N9B"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Deadpool Kills The Marvel Universe Again" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B6u-fy-cjW">
+                                <rect key="frame" x="4" y="212" width="124" height="50.5"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MARVEL COMICS" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vw2-A3-Huu">
+                                <rect key="frame" x="4" y="274.5" width="124" height="14.5"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="12"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" translatesAutoresizingMaskIntoConstraints="NO" id="5RW-A5-Gui">
+                                <rect key="frame" x="4" y="301" width="124" height="16"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_star_check" translatesAutoresizingMaskIntoConstraints="NO" id="sCG-lC-Vlz">
+                                        <rect key="frame" x="0.0" y="0.0" width="25" height="16"/>
+                                        <color key="tintColor" red="0.23740831309999999" green="1" blue="0.39075085389999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    </imageView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_star_check" translatesAutoresizingMaskIntoConstraints="NO" id="72V-Rl-IuE">
+                                        <rect key="frame" x="25" y="0.0" width="24.5" height="16"/>
+                                        <color key="tintColor" red="0.23740831309999999" green="1" blue="0.39075085389999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    </imageView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_star_check" translatesAutoresizingMaskIntoConstraints="NO" id="97E-K4-clS">
+                                        <rect key="frame" x="49.5" y="0.0" width="25" height="16"/>
+                                        <color key="tintColor" red="0.23740831309999999" green="1" blue="0.39075085389999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    </imageView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_star_check" translatesAutoresizingMaskIntoConstraints="NO" id="mDk-nn-ohE">
+                                        <rect key="frame" x="74.5" y="0.0" width="24.5" height="16"/>
+                                        <color key="tintColor" red="0.23740831309999999" green="1" blue="0.39075085389999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    </imageView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_star_uncheck" translatesAutoresizingMaskIntoConstraints="NO" id="nBH-eX-sEa">
+                                        <rect key="frame" x="99" y="0.0" width="25" height="16"/>
+                                        <color key="tintColor" red="0.23740831309999999" green="1" blue="0.39075085389999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    </imageView>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.43529411759999997" green="0.4431372549" blue="0.47450980390000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="B6u-fy-cjW" firstAttribute="top" secondItem="UH2-Pw-BlM" secondAttribute="bottom" constant="12" id="7Yz-Ta-A68"/>
+                            <constraint firstItem="vw2-A3-Huu" firstAttribute="top" secondItem="B6u-fy-cjW" secondAttribute="bottom" constant="12" id="KWb-6c-PHc"/>
+                            <constraint firstItem="vw2-A3-Huu" firstAttribute="leading" secondItem="blB-g4-owA" secondAttribute="leading" constant="4" id="Mg8-fA-rKZ"/>
+                            <constraint firstItem="UH2-Pw-BlM" firstAttribute="leading" secondItem="blB-g4-owA" secondAttribute="leading" id="Oxe-dz-eZJ"/>
+                            <constraint firstAttribute="trailing" secondItem="5RW-A5-Gui" secondAttribute="trailing" constant="4" id="Pba-lj-jUw"/>
+                            <constraint firstAttribute="trailing" secondItem="vw2-A3-Huu" secondAttribute="trailing" constant="4" id="dXu-OS-DiF"/>
+                            <constraint firstAttribute="trailing" secondItem="UH2-Pw-BlM" secondAttribute="trailing" id="me0-Uk-f07"/>
+                            <constraint firstAttribute="trailing" secondItem="B6u-fy-cjW" secondAttribute="trailing" constant="4" id="nWP-Cn-0bL"/>
+                            <constraint firstItem="5RW-A5-Gui" firstAttribute="top" secondItem="vw2-A3-Huu" secondAttribute="bottom" constant="12" id="oRS-CQ-SFZ"/>
+                            <constraint firstItem="UH2-Pw-BlM" firstAttribute="top" secondItem="blB-g4-owA" secondAttribute="top" id="orZ-4Z-ePG"/>
+                            <constraint firstItem="B6u-fy-cjW" firstAttribute="leading" secondItem="blB-g4-owA" secondAttribute="leading" constant="4" id="sit-Qd-qW2"/>
+                            <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="5RW-A5-Gui" secondAttribute="bottom" constant="12" id="uqT-yo-GOV"/>
+                            <constraint firstItem="5RW-A5-Gui" firstAttribute="leading" secondItem="blB-g4-owA" secondAttribute="leading" constant="4" id="ygN-fz-2me"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="blB-g4-owA" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="6eu-1l-2al"/>
+                <constraint firstAttribute="trailing" secondItem="blB-g4-owA" secondAttribute="trailing" id="Hzy-VD-Tvn"/>
+                <constraint firstItem="blB-g4-owA" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="JZ6-hM-sMs"/>
+                <constraint firstAttribute="bottom" secondItem="blB-g4-owA" secondAttribute="bottom" id="UoL-JN-hDz"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <size key="customSize" width="132" height="347"/>
+            <point key="canvasLocation" x="197.10144927536234" y="252.12053571428569"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="book_cover" width="624.5" height="960"/>
+        <image name="icon_star_check" width="12.5" height="12.5"/>
+        <image name="icon_star_uncheck" width="12.5" height="12.5"/>
+    </resources>
+</document>
